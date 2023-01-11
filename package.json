@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-hw1",
+  "version": "1.0.0",
+  "description": "node-js-hw1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmytroMelnyk1992/nodejs-hw1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmytroMelnyk1992/nodejs-hw1/issues"
+  },
+  "homepage": "https://github.com/DmytroMelnyk1992/nodejs-hw1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0",
+    "yargs": "^17.6.2"
+  }
+}
